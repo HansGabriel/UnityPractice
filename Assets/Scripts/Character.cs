@@ -42,7 +42,6 @@ public class Character : MonoBehaviour
                 StartCoroutine(Move(targetPos));
             }
         }
-
         animator.SetBool("isMoving", isMoving);
     }
 
